@@ -18,6 +18,6 @@ The code is runned in three steps:
 2. Run the train_source_model.sh to get the ".pkl" model file while can be used to to predict the origin domain data.  
  command : sh ./script/train_source_model.sh
 3. Run the trans_train.sh to get the domain transfer answer.
- commdand : sh ./script/trans_train.sh
+ command : sh ./script/trans_train.sh
 
 
