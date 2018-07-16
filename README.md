@@ -7,9 +7,9 @@ pyltp : Version: 0.1.9.1
 preparation :
 1. down the ltp model version 3.3.1:
 https://pan.baidu.com/share/link?shareid=1988562907&uk=2738088569#list/path=%2F
-'pos.model' 'cws.model' 'parser.model' is needed and put the model in path  '/data/ltp_data/'
+'pos.model' 'cws.model' 'parser.model' is needed and Please put the model in path  '/data/ltp_data/'
 2. download the embedding data : https://pan.baidu.com/s/1GwX8lSjthxoveRfxB6k5Cw
-put it in the path "./data/embedding_weibo.data"
+Please put it in the path "./data/embedding_weibo.data"
 
 the code is runned in three steps:
 1. use the script file in fold "generate_tree" to pre-precess the origin data. This step can get the depenency tree presentation of the origin data which is saved in the fold "train_tree","phone_tree" etc.
